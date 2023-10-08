@@ -2,8 +2,8 @@
 
 const Contact = () => {
     return (
-      <div>
-        contact page
+      <div className="contact">
+        <a href="mailto:intership@cet.ac.in">Mail us</a>
       </div>
     )
   }

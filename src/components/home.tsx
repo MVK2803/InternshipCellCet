@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home-page">
       <div className="center-section">
         <img src={testImg}></img>
-        <h4>Welcome to Internship Cell CET</h4>
+        <h4>Register yourself to Internship Cell CET</h4>
         <button className="login-btn">
           <Link to={"/login"}>Login</Link>
         </button>
@@ -15,13 +15,9 @@ const Home = () => {
           <div className="text-content">
             <h3>Internship cell</h3>
             <p>
-              "The placement cell operates round the year to facilitate contacts
-              between companies and graduates. The number of students placed
-              through the campus interviews is continuously rising. The
-              Placement Cell plays a crucial role in locating job opportunities
-              for under graduates and post graduates passing out from the
-              college by keeping in touch with reputed firms and industrial
-              establishments.
+            The Internship Cell is here to help you gain real-world experience while you're still studying. We connect 
+            students with opportunities to work in actual companies or organizations. Our goal is to match you with internships that
+            match your interests and what you're learning in class.
             </p>
           </div>
           <img src={Feature}></img>
