@@ -32,7 +32,8 @@ function App() {
 
  
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault()
     
     try {
       // Upload CV to Firebase Storage
