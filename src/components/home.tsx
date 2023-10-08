@@ -8,7 +8,7 @@ const Home = () => {
         <img src={testImg}></img>
         <h4>Register yourself to Internship Cell CET</h4>
         <button className="login-btn">
-          <Link to={"/login"}>Login</Link>
+          <Link to={"/login"}>Register</Link>
         </button>
       </div>
       <div className="text-box">
