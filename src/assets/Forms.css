@@ -1,0 +1,93 @@
+/* styles.css */
+
+/* Center align the container */
+.App {
+  font-family:system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set height to 100% of the viewport height */
+  width: 100vw; /* Set width to 100% of the viewport width */
+  background-color: #ffffff; /* Set your desired background color */
+}
+
+  .formTitle {
+    font-size:50px; /* Increase the font size */
+    background: linear-gradient(to right, #0073e65e, #005bb5); /* Gradient text color */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  /* Style the form container */
+  form {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    background-color: #0073e648;
+    border: 2px solid rgba(0, 0, 255, 0.344);
+    width: 40%; /* Default width for medium and large screens */
+}
+
+/* Media query for small screens (e.g., mobile) */
+@media (max-width: 768px) {
+    form {
+        width: 85%; /* Set width to 95% for small screens */
+    }
+}
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #0073e6; /* Blue border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* White background */
+    font-size: 16px;
+    outline: none;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  /* Style input fields */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #0073e6; /* Blue border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* White background */
+    font-size: 16px;
+    outline: none;
+  }
+  select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #0073e6; /* Blue border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* White background */
+    font-size: 16px;
+    outline: none;
+  }
+  /* Style the button */
+  button {
+    background-color: #0073e6; /* Blue button background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+  }
+  
+  
