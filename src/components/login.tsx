@@ -1,4 +1,5 @@
 import  { useState } from 'react';
+import React from 'react';
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, push ,set} from 'firebase/database';
 import "../assets/Forms.css"
@@ -32,8 +33,8 @@ function App() {
 
  
 
-  const handleSubmit = async (e) => {
-    e.preventDefault()
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault(); // Prevent the default form submission behavior
     
     try {
       // Upload CV to Firebase Storage
