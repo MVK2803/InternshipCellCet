@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, push ,set} from 'firebase/database';
 import "../assets/Forms.css"
@@ -32,8 +32,8 @@ function App() {
 
  
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleSubmit = async () => {
+    
     try {
       // Upload CV to Firebase Storage
       
