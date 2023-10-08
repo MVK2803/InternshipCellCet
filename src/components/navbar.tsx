@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className={navStatus ? 'links responsive-navbar' : 'links'}>
         <Link to={"/"} onClick={()=>setNavStatus(false)}>Home</Link>
         <Link to={"/login"} onClick={()=>setNavStatus(false)}>Login</Link>
-        <Link to={"/contact"} onClick={()=>setNavStatus(false)}>Contact</Link>
+        {/* <Link to={"/contact"} onClick={()=>setNavStatus(false)}>Contact</Link> */}
         <button className = 'nav-btn nav-close-btn' onClick={()=>setNavStatus(!navStatus)}>
           <FaTimes></FaTimes>
         </button>

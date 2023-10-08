@@ -120,13 +120,13 @@
   font-size: 45px;
 }
 
-.contact{
+/* .contact{
   text-align: center;
 }
 
 .contact a{
   text-decoration: none;
-}
+} */
 @media screen and (max-width : 1024px){
   .nav-btn{
     visibility: visible;
